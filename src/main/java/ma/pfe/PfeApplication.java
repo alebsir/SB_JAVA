@@ -10,7 +10,7 @@ import org.springframework.core.env.Environment;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
-@SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
+//@SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
 public class PfeApplication {
 
     private final static Logger LOGGER= LoggerFactory.getLogger(PfeApplication.class);
